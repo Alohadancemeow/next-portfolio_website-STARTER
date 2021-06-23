@@ -68,17 +68,17 @@ export const ListTitle = styled.h4`
   color: #FFFFFF;
   margin-bottom: 8px;
 
-@media ${props => props.theme.breakpoints.md}{
-  font-size: 24px;
-  line-height: 28px;
-}
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 24px;
+    line-height: 28px;
+  }
 
-@media ${props => props.theme.breakpoints.sm}{
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 0.02em;
-  margin-bottom: 4px;
-}
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+  }
 `
 
 export const ListParagraph = styled.p`
